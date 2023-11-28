@@ -1,0 +1,30 @@
+ body {
+     background: linear-gradient(to bottom, #FFE4E1, #20B2AA, #FFE4E1);
+     margin-left: 50px;
+     margin-right: 50px;
+     
+ }
+
+header {
+    background-color: #e91e63; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #e91e63; 
+}
+
+center {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
