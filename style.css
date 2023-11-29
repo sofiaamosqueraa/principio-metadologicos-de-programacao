@@ -1,60 +1,68 @@
- body {
-    background-image: url(https://img.freepik.com/fotos-premium/onda-abstracta-animacion-onda-purpura-bucle-fisuras-4k-fondo-tecnologia-purpura_518816-3085.jpg?size=626&ext=jpg);
-    background-size: 100% auto;
-    margin-left: 50px;
-     margin-right: 50px;
+body {
+    background-image: url(https://png.pngtree.com/background/20220727/original/pngtree-electronic-circuit-design-on-a-dark-purple-background-picture-image_1841456.jpg);
+    background-size: cover;
+    margin: 50px;
     color: white;
-     
- }
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 header {
-    border:2px solid #8B008B;
+    border: 2px solid #8B008B;
     background-color: rgba(221, 160, 221, 0.3);
     color: #e91e63;
     padding: 20px;
     text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+section {
+    text-align: center;
 }
 
 h1, h2, h3 {
-    color: #e91e63; 
+    color: #e91e63;
 }
-
-center {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-iframe {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-    
 
 ul {
     list-style: none;
     padding: 0;
+    text-align: center; 
 }
 
 li {
-    display: inline-block;
-    margin: 10px;
+    display: inline-block; 
 }
 
-a {
-    display: block;
+.metodologias a { /* Aplicar estilos solo a los enlaces dentro de la clase "metodologias" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(221, 160, 221, 0.3);
-    border:2px solid #8B008B;
-    padding: 25px;
-    border-radius: 70%; 
-    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #8B008B;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: black;
     text-decoration: none;
-        transition: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
-a:hover {
-    background-color: #7B68EE; 
+.metodologias a:hover {
+    background-color: #BA55D3;
+}
+
+.references {
+    text-align: center;
+}
+
+.reference-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.reference-link:hover {
+    color: #BA55D3;
 }
 

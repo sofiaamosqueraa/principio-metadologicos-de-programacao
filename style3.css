@@ -1,0 +1,95 @@
+body {
+    background-color: #DDA0DD;
+    margin: 50px; 
+    color: black;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    color: #e91e63;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 28px;
+}
+h2, h3 {
+    text-align: center; 
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    text-align: justify; 
+}
+
+
+.li-1 {
+    font-weight: bold;
+    color: #8B008B;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
+}
+
+
+h1 a {
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+}
+
+
+.container {
+    background-color: rgba(216, 21, 183, 0.418);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-format {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(175, 76, 122);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.output-format {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
